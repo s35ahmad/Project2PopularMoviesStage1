@@ -22,7 +22,7 @@ public final class NetworkUtils {
         final String TMDB_BASE_URL = "https://api.themoviedb.org/3/discover/movie?";
         final String SORT_BY_PARAM = "sort_by";
         final String API_KEY_PARAM = "api_key";
-        String apiKey = "a00ee555891fc2aab3488e0f9e572cce";
+        String apiKey = "####e555891fc2aab3488e0f9e57####";
 
         Uri builtUri = Uri.parse(TMDB_BASE_URL).buildUpon()
                 .appendQueryParameter(SORT_BY_PARAM, param )//param
